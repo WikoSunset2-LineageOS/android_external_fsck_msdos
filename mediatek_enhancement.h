@@ -1,19 +1,6 @@
 #ifndef __MEDIATEK_ENHANCEMENT_H__
 #define __MEDIATEK_ENHANCEMENT_H__
 
-#define _USE_X86_DEBUG_ 0
-#if _USE_X86_DEBUG_
-typedef long long	off64_t;
-#define lseek64 lseek
-
-//Set Parameter
-#define NUMARG 5
-#define PARAM1 "-p"
-#define PARAM2 "-f"
-#define PARAM3 "-d"
-#define PARAM4 "/proj/mtk04301/Perforce/fsck_msdos/img/fat8g.img"
-
-#endif
 // ------------------------------------------
 // xLog Info
 // ------------------------------------------
